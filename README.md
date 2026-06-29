@@ -6,4 +6,4 @@ The Ordinary Least Squares (OLS) estimator is the standard approach for linear r
 Keywords: Robust Statistics; Monte Carlo Simulation; Breakdown Point; Estimator Efficiency, Outlier Resistance, Heavy-Tailed Distributions, Simple Linear Regression.
 
 
-[Read the full text here](https://github.com/GrandMEAN-RA/Robust-Regression-Under-Distribution-Contamination/Robust_Regression_Under_Distributional_Contaminations.pdf)
+[Read the full text here](github.com/GrandMEAN-RA/Robust-Regression-Under-Distribution-Contamination/Robust_Regression_Under_Distributional_Contaminations.pdf)
