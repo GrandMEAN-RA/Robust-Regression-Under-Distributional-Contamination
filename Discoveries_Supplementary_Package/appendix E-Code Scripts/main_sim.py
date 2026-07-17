@@ -26,7 +26,7 @@ PATH = Path(__file__).resolve().parent
 
 # Define Experimental Parameters
 sample_sizes = [10, 30, 50, 100, 500, 1000] 
-sim_cells = ['Contaminations'] 
+sim_cells = ['Standard'] 
 distributions = ['Normal', 'Lognormal', 'Cauchy']
 estimators = ['OLSE', 'LTS', 'Theils', 'Bayesian']
 
@@ -65,7 +65,7 @@ for cell, n, distr in param_grid:
                     True,
                     len(sample_sizes)
                     )
-    
+    """
     # Fit Regression Estimators
     flag = 'simulation'
     for method in estimators:
@@ -91,7 +91,7 @@ for cell, n, distr in param_grid:
     progress(**progress_info)
     
     gc.collect()
-    
+    """
 # End of simulation
 info = f'{tm.bold}{tm.cyan}All {len(param_grid) * len(distributions) * len(estimators)} iterations have been succesfully executed.{tm.reset}'
 progress_info = {'Status':'simulation',
